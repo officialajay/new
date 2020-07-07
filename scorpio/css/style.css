@@ -1,0 +1,395 @@
+	*{
+		margin:0px;
+		padding:0px;
+		box-sizing: border-box;
+	}
+	.container{
+		width:85%;
+		margin:0 auto;
+	}
+	.clearfix{
+		clear:both;
+	}
+	
+	.posi{
+		position: fixed;
+		right: 0;
+		left: 0;
+		top: 0;
+		z-index: 99;
+	}
+	
+	header{
+		
+	}
+	header>.h1{
+		
+		background-color:grey;
+	}
+	header>.h1 .right{
+		float:right;
+		width: 
+	}
+	header ul{
+		list-style-type:none;
+	}
+	header ul>li{
+		display:inline-block;
+		color:white;
+	}
+	header ul>li>a{
+		text-decoration:none;
+		color:white;
+	}
+	header ul>li>a>img{
+		
+	}
+	.margin-set{
+		
+	}
+	
+	
+	nav ul{
+		list-style-type:none;
+	}
+	nav ul>li{
+		display:inline-block;
+		padding:13px;
+		color:white;
+		text-align: left;
+	}
+	nav ul>li>a{
+		text-decoration:none;
+		color:white;
+	}
+	
+	.h2{
+		background-color:black;
+	}
+	.h2 .logo{
+		width:15%;
+		float:left;
+	}
+	.h2 .logo>img{
+		display:block;
+		position: absolute;
+		top: 0
+	}
+	
+	.h2 .nav{
+		width:80%;
+		float:left;
+		width: 81%;
+		text-align: center;
+		float: right;
+	}
+	
+	
+	
+	.drop-down{
+		
+	}
+	.drop-down>ul{
+		background-color: black;
+		position: absolute;
+		margin: 0 auto;
+		z-index: 99;
+		display:none;
+		
+	}
+	.drop-down>ul>li{
+		display:block !important;
+	}
+	.drop-down:hover ul {
+		display: block;
+	}
+	
+
+
+
+
+
+	section{
+		
+	}
+	.row{
+		margin-top: 75px;
+	}
+	.SCORPIO{
+		background-image: url(../img/syouvbg.webp);
+		display: block;
+		min-height: 525px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: left;
+		position: relative;
+	}
+	.SCORPIO>img{
+		display: block;
+		max-width: 100%;
+		position: absolute;
+		left: 102px;
+		top: 18px;
+	}
+	
+	
+	
+	.col-md-7{
+		float:left;
+		width:60%;
+	}
+	.col-md-5{
+		float:left;
+		width:40%;
+	}
+	
+	.sc{
+		margin-top: 50px;
+		font-family: 'Odibee Sans', cursive;
+	}
+	.sc>h1{
+		font-size:135px;
+	}.sc>h2{
+		font-size:65px;
+	}.sc>h3{
+		font-size:26px;
+	}
+	.sc>ul{
+		list-style-image: url(../img/arrow-right2.jpg);
+		list-style-type: none;
+		list-style-position: inside;
+	}
+	.sc>ul>li{
+		font-size: 25px;
+		margin-top: 17px;
+	}
+	.sc>ul>li>a{
+		text-decoration:none;
+		color: black;
+	}
+	
+	.Whatsnew{
+		text-align:center;
+	}
+	.Whatsnew>p{
+		font-family: 'Odibee Sans', cursive;
+		font-size: 100px;
+	}
+	
+	.new{
+		
+	}
+	.new>.new-1{
+		width:50%;
+		float:left;
+		padding: 40px;
+	}
+	.new-1 h1{
+		font-family: 'Odibee Sans', cursive;
+		font-size: 57px;
+	}
+	.new-1 p{
+		font-size: 20px;
+	}
+	.new>.new-2{
+		width:50%;
+		float:left;
+	}
+	.new>.new-2>img{
+		max-width:100%;
+	}
+	
+	.explore{
+		text-align:center;
+		padding: 20px;
+	}
+	.explore>p{
+		font-family: 'Odibee Sans', cursive;
+		font-size: 55px;
+	}
+	.features{
+		
+	}
+	.feat{
+		width:20%;
+		float:left;
+		text-align:center;
+		font-family: 'Odibee Sans', cursive;
+		transition:1s;
+		-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+		transition: width 2s;
+	}
+	.feat:hover{
+		/* transform:scale(1.2); */
+	
+		width:40%;
+	}
+	.feat a{
+		text-decoration:none;
+		color:white;
+	}
+	.feat h1{
+		font-size: 28px;
+		margin-bottom: 20px;
+	}
+	.Power{
+		background-image: url(../img/explorefuture-Power-new.jpg);
+		background-size: cover;
+		min-height: 500px;
+		background-position: center;
+	}
+	
+	.Style{
+		background-image: url(../img/explorefuture-style.jpg);
+		background-size: cover;
+		min-height: 500px;
+		background-position: center;
+	}
+	.Technology{
+		background-image: url(../img/explorefuture-technology.jpg);
+		background-size: cover;
+		min-height: 500px;
+		background-position: center;
+	}
+	.Comfort{
+		background-image: url(../img/explorefuture-comfort.jpg);
+		background-size: cover;
+		min-height: 500px;
+		background-position: center;
+	}
+	.Safety{
+		background-image: url(../img/explorefuture-Safety.jpg);
+		background-size: cover;
+		min-height: 500px;
+		background-position: center;
+	}
+	
+	.car-360{
+		background-image: url(../img/White_19.jpg);
+		display:block;
+		min-height: 659px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position:relative;
+		font-family: 'Odibee Sans', cursive;
+	}
+	.car-360>h1{
+		position: absolute;
+		top: 60px;
+		left: 50px;
+		font-size: 50px;
+	}
+	.car-360>h2{
+		position: absolute;
+		right: 70px;
+		top: 65px;
+		font-size: 29px;
+	}
+	
+	
+	
+	
+	.POWER{
+		background: url(../img/power-domination.jpg);
+		min-height: 659px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+	}
+	.POWER>.title{
+		
+	}
+	.POWER>.title>h2{
+		text-align: center;
+		padding-top: 25px;
+		font-size: 70px;
+		font-family: 'Odibee Sans', cursive;
+	}
+	.POWER>.title>a{
+		text-decoration:none;
+		position: absolute;
+		right: 70px;
+		color: black;
+		font-family: 'Odibee Sans', cursive;
+		font-size: 40px;
+	}
+
+
+
+
+
+	.footer{
+		
+	}
+	.footer1{
+		background-color: darkslategrey;
+		text-align:center;
+		padding: 52px 0px;
+	}
+	.f1{
+		margin-bottom: 20px;
+	}
+	.f1>h1{
+		font-size: 40px;
+		color: white;
+	}
+	.f1>h2{
+		color: white;
+	}
+	.f1>.social>ul{
+		list-style-type:none;
+	}
+	.f1>.social>ul>li{
+		display:inline-block;
+	}
+	.f1>.social>ul>li>img{
+		display:block;
+	}
+
+	.f2{
+		margin-bottom: 20px;
+	}
+	.f2>ul{
+		list-style-type:none;
+	}
+	.f2>ul>li{
+		display:inline-block;
+		color: white;
+		font-size: 24px;
+	}
+	.f2>ul>li>a{
+		color: white;
+		padding: 0px 10px;
+		text-decoration:none;
+	}
+	.f3{
+		margin-bottom: 20px;
+	}
+	.f3>p{
+		color: white;
+	}
+
+	.footer2{
+		background-color:black;
+		text-align:center;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+	.footer2 ul{
+		list-style-type:none;
+	}
+	.footer2 ul>li{
+		display:inline-block;
+		color: white;
+		font-size: 18px;
+		padding: 10px 0px 10px 5px;
+	}
+	.footer2 ul>li>a{
+		color: white;
+		padding: 0px 10px;
+		text-decoration:none;
+	}
